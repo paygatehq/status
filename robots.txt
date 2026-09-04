@@ -1,0 +1,13 @@
+# status.paygatehq.com — the status page, deployed separately from the marketing site.
+#
+# Indexable, deliberately: "is paygate down" is a real query and this is the page that
+# answers it. What a crawler gets is the objectives and the caveats, which are static; the
+# live readings are fetched by the bundle and no crawler here runs one. That is the correct
+# outcome — a search result should not carry a cached claim about a moment that has passed.
+#
+# GENERATED from src/content/seo-files.ts at build time. The Sitemap line names a host, and
+# naming the WRONG one points crawlers at a description of a different site.
+User-agent: *
+Allow: /
+
+Sitemap: https://status.paygatehq.com/sitemap.xml
