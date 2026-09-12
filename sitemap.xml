@@ -7,4 +7,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <!-- The archive. A second document on this host since the incidents came off the front
+         page, and it has to be listed or it is a page nothing points a crawler at. -->
+    <loc>https://status.paygatehq.com/history</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
